@@ -1,0 +1,8 @@
+import OpenAI from "openai";
+
+const openai = new OpenAI({
+  apiKey: "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",
+  dangerouslyAllowBrowser: true,
+});
+
+export default openai;
